@@ -14,15 +14,15 @@ This project is a simple event registration form website template designed using
 
 1. Clone this repository to your local machine:
 
-    bash
-    git clone https://github.com/your-username/event-registration-form.git
-    
+    '''bash
+    [git clone https://github.com/your-username/event-registration-form.git](https://github.com/Harsh1604/event_management_site.git)
+    '''
 
 2. Navigate to the project directory:
 
-    bash
+    '''bash
     cd event-registration-form
-    
+    '''
 
 3. Open the index.html file in your preferred code editor to customize the form fields, event details, and styling.
 
