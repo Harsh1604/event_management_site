@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Event Site</title>
+  </head>
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- navbar starts -->
+      <nav class="nav-wrapper">
+        <nav class="navbar">
+          <h1 class="logo">Vivacity</h1>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#register" class="nav-link">Event registration</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tours" class="nav-link">Upcoming Events</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="">
+              <a href="#register" class="nav-link ctn">Contact</a>
+            </li>
+            <img src="/img/menu-btn.png" class="mobile-btn" />
+          </ul>
+        </nav>
+      </nav>
+      <div class="header-wrapper">
+        <div class="header-content">
+          <h2>
+            Unleashing Waves of <span id="colorGradient">Creativity</span>
+          </h2>
+          <div class="line"></div>
+          <h2>
+            23-25 February 2024 <br />
+            Venue - JECC
+          </h2>
+        </div>
+      </div>
+    </header>
+
+    <section class="events">
+      <div class="title">
+        <h1>EVENT DETAILS</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img height="350px" width="350px" src="./img/Arijit.jpg" />
+          <div class="artist">
+            <h4><span id="colorGradient">Arijit Singh</span></h4>
+            <p>8:00pm - 24 FEB 2024</p>
+          </div>
+          <p class="paragraphs">
+            As a live performer, Arijit Singh's concerts are nothing short of
+            magical experiences. The stage becomes a canvas for his emotions,
+            and each song is a brushstroke that paints a vivid picture for the
+            audience.
+          </p>
+          <!-- <a href="#" type="button" class="ctn">Learn More</a> -->
+        </div>
+        <div class="col">
+          <img height="350px" width="350px" src="./img/shirley setia.jpg" />
+          <div class="artist">
+            <h4><span id="colorGradient">Shirley Setia</span></h4>
+            <p>8:00pm - 25 FEB 2024</p>
+          </div>
+          <p class="paragraphs">
+            As Shirley prepares to grace the stage for an upcoming concert, fans
+            can anticipate an unforgettable musical experience. So just be ready
+            to be a part of this.
+          </p>
+          <!-- <a href="#" type="button" class="ctn">Learn More</a> -->
+        </div>
+      </div>
+    </section>
+    <section class="tours" id="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>EVENTS</h1>
+          <div class="line"></div>
+          <p>
+            Gear up for an electrifying celebration of creativity, talent, and
+            endless fun at "[VIVACITY] – Ignite the Spark"! This event is not
+            just a gathering; it's a melting pot of vibrant energy, diverse
+            talents, and the spirit of camaraderie.
+          </p>
+          <a href="#register" type="button" class="ctn">Apply</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img
+              class="im"
+              height="300px"
+              width="250px"
+              src="./img/explore10.png"
+            />
+            <img
+              class="im"
+              height="300px"
+              width="250px"
+              src="./img/explore11.png"
+            />
+            <img
+              class="im"
+              height="300px"
+              width="250px"
+              src="./img/explore12.png"
+            />
+            <img
+              class="im"
+              height="300px"
+              width="250px"
+              src="./img/explore13.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="#register">
+      <div class="containers">
+        <div class="form1">
+          <h1 id="register_h1">Registration Form</h1>
+          <form id="registration-form">
+            <label class="label" for="name"
+              >Name:<span id="redStar">*</span></label
+            >
+            <input type="text" id="name" />
+            <div id="nameError" class="error-message"></div>
+
+            <label class="label" for="college"
+              >College name:<span id="redStar">*</span></label
+            >
+            <input type="text" id="college" />
+            <div id="collegeError" class="error-message"></div>
+
+            <label class="label" for="gender"
+              >Gender:<span id="redStar">*</span></label
+            >
+            <select id="gender">
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <div id="genderError" class="error-message"></div>
+
+            <label class="label" for="email"
+              >Email:<span id="redStar">*</span></label
+            >
+            <input type="email" id="email" />
+            <div id="emailError" class="error-message"></div>
+
+            <label class="label" for="phone">Phone Number:</label>
+            <input type="tel" id="phone" />
+            <div id="phoneError" class="error-message"></div>
+
+            <label class="label" for="course">Current Course:</label>
+            <input type="text" id="course" />
+            <div id="courseError" class="error-message"></div>
+
+            <button id="registerBtn">Register</button>
+          </form>
+        </div>
+
+        <script src="main.js"></script>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div id="footer-wrapper">
+        <h1>FAQ's</h1>
+        <div class="ques">
+          <img src=".\img\faq.png" class="faqpic" alt="" srcset="" />
+          <h3>How do I cancel a registration?</h3>
+        </div>
+        <p class="pppp">
+          Please contact us at xyz@gmail.com and explain why you cannot attend.
+          We must receive this information in writing. Your cancellation is
+          subject to a refund schedule and processing fee. Please see our Event
+          Registration Policies.
+        </p>
+        <div class="ques">
+          <img src=".\img\faq.png" class="faqpic" alt="" srcset="" />
+          <h3>What are available payment options?</h3>
+        </div>
+        <p class="pppp">
+          We accept payment online with
+          <span id="footerpay"
+            >Visa, MasterCard or American Express credit card.</span
+          >
+        </p>
+        <p>Completely made by Harsh Jain🚀</p>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
